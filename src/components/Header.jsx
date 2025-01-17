@@ -14,20 +14,19 @@ function Header() {
         <nav>
           <ul className="flex text-sm [&>li>a]:inline-block [&>li>a]:px-2">
             <li>
-              <a href="">Inicio</a>
+              <a href="https://www.gob.mx/tramites" className="hover:text-yellow-200 transition-colors duration-300">Trámites</a>
             </li>
             <li>
-              <a href="">Trámites</a>
-            </li>
-            <li>
-              <a href="">Gobierno</a>
+              <a href="https://www.gob.mx/" className="hover:text-yellow-200 transition-colors duration-300">Gobierno</a>
             </li>
           </ul>
         </nav>
       </header>
       <section className="h-full w-full text-center relative overflow-hidden text-white">
         <header className="z-30 relative">
-          <h2 className="pt-60 text-6xl font-medium">Refinería Olmeca Dos Bocas</h2>
+          <h2 className="pt-60 lg:pt-80 text-6xl font-medium">
+            Refinería Olmeca Dos Bocas
+          </h2>
           <p className="text-base">La energía que mueve a México</p>
         </header>
         <div className="absolute top-0 bottom-0 w-full h-full">

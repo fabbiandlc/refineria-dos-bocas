@@ -9,7 +9,7 @@ const blogsData = [
     categoryColor: "text-green-950",
     imageUrl:
       "https://dosbocas.energia.gob.mx/images/BoletinImg%2020220715_01.png",
-    link: "#",
+    link: "https://dosbocas.energia.gob.mx/Documentos/11%20Bolet%C3%ADn%20de%20Prensa%20SENER%2020220701.pdf",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const blogsData = [
     categoryColor: "text-green-950",
     imageUrl:
       "https://dosbocas.energia.gob.mx/images/boletin_011221.png",
-    link: "#",
+    link: "https://dosbocas.energia.gob.mx/Documentos/Bolet%C3%ADn%2006122021.pdf",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const blogsData = [
     categoryColor: "text-green-950",
     imageUrl:
       "https://dosbocas.energia.gob.mx/images/BoletinImg%2020201207_02.png",
-    link: "#",
+    link: "https://dosbocas.energia.gob.mx/Documentos/11%20BOLETIN%20DE%20PRENSA%20SENER%2018102020.pdf",
   },
   {
     id: 4,
@@ -44,13 +44,13 @@ const blogsData = [
     categoryColor: "text-green-950",
     imageUrl:
       "https://dosbocas.energia.gob.mx/images/BoletinImg%2020200611_02.png",
-    link: "#",
+    link: "https://dosbocas.energia.gob.mx/Documentos/10%20BOLETIN%20DE%20PRENSA%20SENER%2011062020.pdf",
   },
 ];
 
 const Blogs = () => {
   return (
-    <section className="px-20">
+    <section className="lg:px-20">
         <h1 className="title-font text-3xl sm:text-4xl font-semibold text-green-950 mb-4 text-center mt-20">
             Noticias
           </h1>
